@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+body{
+    padding: 0;
+    margin: 0;
+    background: whitesmoke;
+}
+
+.top-nav {
+    background-color: mintcream;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+}
+
+.top-nav a{
+    width: 180px;
+    display: block;
+    padding: 15px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: salmon;
+    float: right;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active{
+    background-color: lightcoral;
+}
+
+.top-nav a:hover {
+    background: lightpink;
+    transition: 0.5s;
+}
+
+* {
+    margin: 0;
+}
+
+.hero-img{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.hero-wrapper{
+    position: relative;
+}
+
+.hero-title{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: brown;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.quote{
+    font-size: 25px;
+    color: lightsalmon;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.large-img{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.img-wrapper{
+    font-size: 0;
+}
+
+.medium-img{
+    width: 33%;
+    object-fit: cover;
+}
+
+.medium-img{
+    width: 34%;
+    object-fit: cover;
+}
+
+.medium-img{
+    width: 33%;
+    object-fit: cover;
+}
+
+.medium-img-1{
+    width: 33%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.medium-img-2{
+    width: 34%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.medium-img-3{
+    width: 33%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.social-media-1 {
+    color: plum;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 2;  
+}
+
+.social-media-1:hover {
+    color: purple;
+}
+
+.social-media-2 {
+    color: lightblue;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 2;
+}
+
+.social-media-2:hover {
+    color: aqua;
+}
+
+.social-media-3 {
+    color: aqua;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 2;
+}
+.social-media-3:hover {
+    color: blue;
+}
+
+.copyright_footer{
+    position: relative;
+    color: brown;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    background-color: whitesmoke;
+    left: 0;
+}
+.about {
+    font-size: 15 px;
+    color: brown;
+    font-style: italic;
+    text-align: center;
+    line-height: 3;
+}
+
+.portfolio {
+    font-size: x-large;
+    color: darkolivegreen;
+    text-align: center;
+    line-height: 50px;
+}
+
+.services {
+    font-size: larger;
+    color: brown;
+    text-align: center;
+    line-height: 3;
+    background-color: whitesmoke;
+    text-transform: capitalize;
+}
+
+.contact {
+    font-size: large;
+    color: brown;
+    text-align: center;
+}
+
+.clienttestimony {
+    font-size: larger;
+    color: brown;
+    line-height: 3;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 436px) {
+    div {
+        background-color: lightskyblue;
+    }
+    .text {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 436px) {
+    .top-nav {
+        background-color: lightskyblue;
+    }
+    .text {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+
